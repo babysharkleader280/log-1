@@ -45,6 +45,3 @@ pcall(function()
        );
    end
 end)
-wait(2)
-game:Shutdown()
-while true do end
